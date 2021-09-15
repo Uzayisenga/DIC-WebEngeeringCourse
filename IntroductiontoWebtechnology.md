@@ -51,7 +51,8 @@ You can see that **216.58.197.142** is the address of the web server that has th
 - Let's compare it with the domain.
 
 **Let's compare it with the domain**
-[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/276f4e5f9f0df1f86c271dfad5d9f7d6.png)]
+
+![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/276f4e5f9f0df1f86c271dfad5d9f7d6.png)
 
 ## DOMAIN
 
@@ -116,7 +117,7 @@ Please remember this relationship.
 When the browser receives the response, the web site you normally see is displayed.
 Process until the web site is displayed,
 
-[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/0f98ce9cfcc41fc6dffac7c41171e098.png)]
+![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/0f98ce9cfcc41fc6dffac7c41171e098.png)
 
 
  
