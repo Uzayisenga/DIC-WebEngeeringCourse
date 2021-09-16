@@ -34,10 +34,13 @@ Let’s create a function that allows you to view the size of the bitter gourd i
 
 Now, how to manipulate DB from Ruby programs will be explained through the creation of sample files.
 You will use goyaDB from here. Depending on the situation of the work space, the setting may not work properly and an error may occur. Please consult with a mentor as soon as possible in such a situation.
+
 - At the terminal
+
 ```
 gem install pg
 ```
+
 This pg is a gem that allows you to manipulate psql with ruby.
 
 Once you have the gem installed, create a file called sample_pg.rb and write the following:
@@ -97,7 +100,8 @@ Remember that it is also used by Rails.
 Let’s rewrite <mark>test.html.erb</mark> as follows.
   
   <mark>test.html.erb</mark> 
-  ```
+	
+```
   <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -126,7 +130,8 @@ Let’s rewrite <mark>test.html.erb</mark> as follows.
     </form>
   </body>
 </html>
-      ```
+	    
+```
       
 Add some changes to test.rb and prepare a page to output goyaDB information.
 <mark>test.rb</mark>
@@ -153,11 +158,13 @@ server.mount('/indicate.cgi', WEBrick::HTTPServlet::CGIHandler, 'indicate.rb')
 # Add this line
 server.mount('/goya.cgi', WEBrick::HTTPServlet::CGIHandler, 'goya.rb')
 server.start
-      ```
+	    
+```
       
 Then create a <mark>goya.rb</mark> file to output the goyaDB information.
       
 <mark>goya.rb</mark>
+	    
 ```
       # Launch CGI program to receive and return data
 require 'cgi'
@@ -174,7 +181,9 @@ cgi.out("type" => "text/html", "charset" => "UTF-8") {
     </body>
   </html>"
 }
-      ```
+    
+```
+	    
 What is being done here is almost the same as what is described in the previous curriculum, so detailed explanations will be omitted.
 
 
