@@ -93,7 +93,6 @@ erb stands for Embedded Ruby and <mark>*.html.erb*</mark>means html file with em
 
 In other words, changing the name of the *test.html* file to <mark>*test.html.erb*<mark> means that you can write ruby code in the test.html file.
 Remember that it is also used by Rails.
-　
 **We assume you have already imported the goya csv into your database.**
 
 
