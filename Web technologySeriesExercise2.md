@@ -84,8 +84,9 @@ If this causes an error, rewrite ```PG :: connect (dbname:" goya ") to PG :: con
 
 ## 5.Add pg connection process to the file created so far
 
-Now, let’s add the DB processing function to the file created last time.
-　
+Now, let’s add the DB processing function to the file created last time.                                                                                                                                                                          
+
+**We assume you have already imported the goya csv into your database.**
 
 First, rename the previously created test.html file to test.html.erb.
 erb stands for Embedded Ruby and <mark>*.html.erb*</mark>means html file with embedded Ruby code. (Strictly speaking, although it may be slightly different, there is no problem with this general understanding.)
@@ -93,7 +94,8 @@ erb stands for Embedded Ruby and <mark>*.html.erb*</mark>means html file with em
 
 In other words, changing the name of the *test.html* file to <mark>*test.html.erb*<mark> means that you can write ruby code in the test.html file.
 Remember that it is also used by Rails.
-**We assume you have already imported the goya csv into your database.**
+
+
 
 
 Let’s rewrite <mark>test.html.erb</mark> as follows.
