@@ -80,13 +80,13 @@ Let’s execute ruby sample_pg.rb!
 ![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/6a75ab0edfe1d2852e702b3419042e61.png)
 
 As mentioned above, let’s move on when you can get the information of goyaDB.
-If this causes an error, rewrite PG :: connect (dbname:" goya ") to PG :: connect (dbname:" ubuntu ") and try again. If that doesn’t work, then ask to a mentor.
+If this causes an error, rewrite ```PG :: connect (dbname:" goya ") to PG :: connect (dbname:" ubuntu ")``` and try again. If that doesn’t work, then ask to a mentor.
 
 ## 5.Add pg connection process to the file created so far
 
 Now, let’s add the DB processing function to the file created last time.
 　
-<mark>We assume you have already imported the goya csv into your database.</mark>
+**We assume you have already imported the goya csv into your database.**
 
 First, rename the previously created test.html file to test.html.erb.
 erb stands for Embedded Ruby and <mark>*.html.erb*</mark>means html file with embedded Ruby code. (Strictly speaking, although it may be slightly different, there is no problem with this general understanding.)
