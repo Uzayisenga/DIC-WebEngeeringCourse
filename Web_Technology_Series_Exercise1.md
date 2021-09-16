@@ -21,7 +21,9 @@ However, you can add movement by placing a program written in a language such as
 
 A web server is a server that is used to provide information and functions to a user’s computer through a network on a web system.
 
-The Web server generates a communication when a request for a URL (Request) is sent from the browser (when the part described by <a href="..."> is clicked), acquires and displays information of HTML existing in the web server.
+The Web server generates a communication when a request for a URL (Request) 
+is sent from the browser (when the part described by <a href="..."> is clicked),
+acquires and displays information of HTML existing in the web server.
 Displaying HTML is called returning a response.
   
 Here, Dynamic processing is realized by incorporating processing such as Ruby in HTML.
